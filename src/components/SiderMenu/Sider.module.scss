@@ -1,0 +1,27 @@
+@import '../../css/helpers/variables';
+
+.drawer{
+    width: $sider-width;
+    flex-shrink: 0;
+    white-space: nowrap;
+    z-index: $sider-zIndex;
+}
+.drawerOpen {
+    width: $sider-width;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+  }
+.drawerClose {
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    overflow: hidden;
+    width: 57px;
+}
+.toolbarIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: '0 8px';
+}

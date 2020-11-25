@@ -1,0 +1,19 @@
+.title {
+    flex-grow: 1;
+  }
+.menuButton {
+    margin: 16px;
+}
+.menuButtonHidden {
+    display: none;
+  }
+.toolbar{
+    padding-left: 0px !important;
+}
+.toolbar button{
+    padding-left:16px;
+    padding-right:16px;
+}
+.toolbar h6{
+    padding-left:10px;
+}
